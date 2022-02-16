@@ -20,17 +20,7 @@ const connect = function() {
   
   conn.write('Name: GCR');
 
-  // const movements = ['Move: up', 'Move: up', 'Move: up', 'Move: right', 'Move: right', 'Move: right'];
-  // let delay = 200;
-
-  // for (let i = 0; i < movements.length; i++) {
-  //   setTimeout(() => {
-  //     conn.write(movements[i]);
-  //   }, delay += 200);
-  // };
-
   
-
   return conn;
 };
 
